@@ -1,0 +1,29 @@
+{
+  "name": "rn-use-input-focus",
+  "version": "1.0.0",
+  "description": "A React Native hook that makes it easier to use focus in inputs.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "tsc"
+  },
+  "keywords": [
+    "hook",
+    "react-native",
+    "input",
+    "focus",
+    "use",
+    "focus"
+  ],
+  "author": "Metehan Kurucu",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8",
+    "react-native": ">=0.59"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "@types/react-native": "^0.63.46"
+  }
+}
