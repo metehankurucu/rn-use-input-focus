@@ -6,7 +6,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "tsc"
+    "prepublish": "tsc",
+    "build": "tsc"
   },
   "keywords": [
     "hook",
@@ -25,5 +26,13 @@
   "devDependencies": {
     "@types/react": "^17.0.0",
     "@types/react-native": "^0.63.46"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metehankurucu/rn-use-input-focus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/metehankurucu/rn-use-input-focus/issues"
+  },
+  "homepage": "https://github.com/metehankurucu/rn-use-input-focus#readme"
 }
